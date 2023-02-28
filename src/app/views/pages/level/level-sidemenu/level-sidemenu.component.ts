@@ -76,6 +76,22 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'word Help', command: () => this.levelService.viewPage=32}
             ]
         },
+        {
+            label: 'Lesson 3: WHEN AMMA WENT TO SCHOOL',
+            items: [
+                { label: 'Introduction 1', command: () => this.levelService.viewPage=33},
+                { label: 'Story Time: When Amma Went to School', command: () => this.levelService.viewPage=34},
+                // { label: 'Picture Play', command: () => this.levelService.viewPage=35},
+                { label: 'Open Story', command: () => this.levelService.viewPage=35},
+                { label: 'Introduction 2', command: () => this.levelService.viewPage=36},
+                { label: 'Story Time: Brushing is No Fun!', command: () => this.levelService.viewPage=37},
+                { label: 'Word Play', command: () => this.levelService.viewPage=38},
+                { label: 'Open Story', command: () => this.levelService.viewPage=39},
+                { label: 'Think and Write', command: () => this.levelService.viewPage=40},
+                { label: 'word Help', command: () => this.levelService.viewPage=41}
+            ]
+        },
+        
         // {
         //     label: 'Eng Level 1',
         //     expanded: true,
@@ -168,7 +184,9 @@ export class LevelSidemenuComponent implements OnInit {
         //     ]
         // },
     ];
+    
   }
  
 
 }
+

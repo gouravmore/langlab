@@ -93,7 +93,37 @@ export class LevelViewpartComponent implements OnInit {
       ta_text: ""
     }
   }
+  introduction_lesson_6 = {
+    title: 'Feelings: What\'s in store today?',
+    id: "lesson-3",
+    description: "In this lesson, you will attempt a variety of comprehension and grammar activities based on two stories titled When Amma Went to School and Brushing is No Fun .",
+    objective: [
+      "You will be able to understand procedures, the sequence of events and comprehend unpredictable turn of events through audio cues.",
+      "You will be able to list the procedures and recount the steps in a process.",
+      "You will attempt matching activities and read with care to find the correct word match in a sentence.",
+      "You will be able to write the steps in a process in the proper sequence."
+    ],
+    instruction_1: {
+      en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
+      ta_text: ""
+    }
+  }
 
+  introduction_lesson_7 = {
+    title: 'School Time! Morning Time! Brushing Time!',
+    id: "lesson-3",
+    description: "In this lesson, you will attempt a variety of comprehension and grammar activities based on two stories titled When Amma Went to School and Brushing is No Fun .",
+    objective: [
+      "You will be able to understand procedures, the sequence of events and comprehend unpredictable turn of events through audio cues.",
+      "You will be able to list the procedures and recount the steps in a process.",
+      "You will attempt matching activities and read with care to find the correct word match in a sentence.",
+      "You will be able to write the steps in a process in the proper sequence."
+    ],
+    instruction_1: {
+      en_text: "In this lesson, you will lea  rn to understand and describe locations of things in your immediate surroundings.",
+      ta_text: ""
+    }
+  }
 
 
 
@@ -147,6 +177,7 @@ export class LevelViewpartComponent implements OnInit {
       "ta_text": "வீடியோவைப் பாருங்கள்.► என்பதைக் கிளிக் செய்து ஆடியோவைக் கேளுங்கள்.உங்கள் சக மாணவருடன் வரிகளை மீண்டும் கூறவும்.",
       "video": "assets/collection/lesson-6/video/instruction-2.mp4"
     },
+    
     // "instruction_3": {
     //   "en_text": "Click 'next' to go to the next activity.",
     //   "ta_text": "அடுத்த செயல்பாட்டிற்குச் செல்ல 'அடுத்து' என்பதைக் கிளிக் செய்யவும்."
@@ -169,6 +200,42 @@ export class LevelViewpartComponent implements OnInit {
       "en_text": "Press  ►  to read and listen again.",
       "ta_text": "மீண்டும் படிக்கவும் கேட்கவும் ► ஐ அழுத்தவும்."
     }
+  }
+  lesson_5 =  {
+    "title": "Story Time: When Amma Went to School",
+    "id": "lesson-11",
+    // "instruction_1": {
+    //   "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
+    //   "ta_text": "",
+    //   "video": "assets/collection/lesson2-3/video/unit2L3.mp4"
+    // },
+    "instruction_2": {
+      "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",
+      "ta_text": "",
+      "video": "assets/collection/lesson2-3/video/unit2L3.mp4"
+    },
+    "instruction_3": {
+      "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",
+      "ta_text": ""
+    }
+  }
+  lesson_6 =  {
+    "title": "Story Time: Brushing is No Fun!",
+    "id": "lesson-11",
+    // "instruction_1": {
+    //   "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
+    //   "ta_text": "",
+    //   "video": "assets/collection/lesson2-3/video/unit2L3.mp4"
+    // },
+    "instruction_2": {
+      "en_text": "Click on Play button to listen to the story. Read the subtitles to follow the dialogues carefully.",
+      "ta_text": "",
+      "video": "assets/collection/lesson-8/video/instruction-2.mp4"
+    },
+    // "instruction_3": {
+    //   "en_text": "Press  ►  to read and listen again.",
+    //   "ta_text": "மீண்டும் படிக்கவும் கேட்கவும் ► ஐ அழுத்தவும்."
+    // }
   }
 
 
@@ -313,6 +380,27 @@ export class LevelViewpartComponent implements OnInit {
   }
 
   openStory_lesson_10 = {
+    title: 'Open Story: Describe the Action',
+    id: "lesson-1",
+    instruction_1: {
+      en_text: "We just saw a video of people doing different actions. Can you match the images below with the actions described?",
+      ta_text: "வெவ்வேறு செயல்களைச் செய்யும் நபர்களின் காணொளி பார்த்தோம். விவரிக்கப்பட்டுள்ள செயல்களுடன் கீழே உள்ள படங்களை உங்களால் பொருத்த முடியுமா?",
+      audio: "assets/collection/lesson-1/picture-play/instruction-1.mp3"
+    },
+    instruction_2: {
+      en_text: "Click ► to begin.",
+      ta_text: "தொடங்க ► கிளிக் செய்யவும்.",
+      video: "assets/collection/lesson-1/video/instruction-2.mp4"
+    },
+    instruction_3: {
+      en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
+      ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
+    },
+    iframe: "assets/collection/lesson-10/open-story/EBU02L10.csst"
+
+  }
+
+  openStory_lesson_11 = {
     title: 'Open Story: Describe the Action',
     id: "lesson-1",
     instruction_1: {
