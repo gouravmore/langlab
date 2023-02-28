@@ -77,7 +77,21 @@ export class LevelViewpartComponent implements OnInit {
       ta_text: ""
     }
   } 
-
+  introduction_lesson_5 = {
+    title: 'Feelings: What\'s in store today?',
+    id: "lesson-5",
+    description: "In this lesson, you will learn how to use English words to express your feelings.",
+    objective: [
+      "You will listen to audios to recognise and understand words expressing feelings about something or someone in a familiar context or in a simple conversation.",
+      "You will use simple words and phrases to express how you feel about something or someone in your immediate environment.",
+      "You will read simple texts that describe feelings",
+      "You will write simple notes expressing feelings."
+    ],
+    instruction_1: {
+      en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
+      ta_text: ""
+    }
+  } 
 
 
   lesson_1 =  {
@@ -248,6 +262,29 @@ export class LevelViewpartComponent implements OnInit {
       src: "https://h5p.org/h5p/embed/1356282"
     }
   }
+  picturePlayData_lesson_10 = {
+    title: 'Picture Play: Weather Report',
+    id: "lesson-10",
+    instruction_1: {
+      en_text: "Here is the news on the weather.But wait! We have to fill the correct weather pictures in the map. Look at the map of India and listen to the audio. Mark the weather for the various places correctly.",
+      ta_text: "వాతావరణం గురించి సమాచారం ఇక్కడ ఉన్నది. కానీ వేచియుడండి! మీరు మ్యాపులో సరియైన వాతావరణ చిత్రాలను నింపాలి. ఇండియా మ్యాప్ చూడండి మరియు ఆడియోని వినండి. విభిన్న ప్రదేశాలను సరిగా వాతావరణాన్ని గుర్తించండి.",
+      audio: "assets/collection/lesson-10/picture-play/instruction-1.mp3"
+    },
+    instruction_2: {
+        en_text: "Click on ► to listen to the weather report. Drag and drop the images onto the correct parts of the country. Good luck!",
+        ta_text: "వాతావరణ నివేదికను వినడానికి ► పైన క్లిక్ చేయండి. దేశం యొక్క సరియైన భాగాలకు చిత్రాల పైన డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. శుభం కలుగు గాక!"
+       
+      },
+    
+    iframe: {
+      instruction_1:{
+        en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
+        ta_text: "జతను పూర్తి చేయడానికి సరియైన వ్యక్తిని డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. తరువాత, సంబంధం పేరుని చెప్పడానికి రికార్డ్ బటన్ పైన క్లిక్ చేయండి. ఉదా. భర్త మరియు భార్య",
+        audio: "assets/collection/lesson-10/picture-play/instruction-1.mp3"
+      },
+      src: "https://h5p.org/h5p/embed/1356282"
+    }
+  }
 
   openStory_lesson_1 = {
     title: 'Open Story: Describe the Action',
@@ -327,7 +364,25 @@ export class LevelViewpartComponent implements OnInit {
       ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
     }
   }
-
+  thinkAndWrite_lesson_10 = {
+    title: 'Think and Write',
+    id: "lesson-10",
+    iframe: "https://h5p.org/h5p/embed/1356291",
+    instruction_1: {
+      en_text: "Think and write your responses into the box given below. You may write in any language.",
+      ta_text: "கீழே கொடுக்கப்பட்டுள்ள பெட்டியில் உங்கள் பதில்களை யோசித்து எழுதுங்கள். பதில்களை எந்த மொழியிலும் எழுதலாம்."
+     
+    },
+    instruction_2: {
+      en_text: "Click ► to begin.",
+      ta_text: "தொடங்க ► கிளிக் செய்யவும்.",
+      video: "assets/collection/lesson-1/video/instruction-2.mp4"
+    },
+    instruction_3: {
+      en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
+      ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
+    }
+  }
   wordHelp_lesson_1 = [
     {
         "word": "appropriate",

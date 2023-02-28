@@ -65,6 +65,17 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'word Help', command: () => this.levelService.viewPage=26}
             ]
         },
+        {
+            label: 'Lesson 10: Review Time',
+            items: [
+                { label: 'Introduction', command: () => this.levelService.viewPage=27},
+                { label: 'Picture Play', command: () => this.levelService.viewPage=28},
+                { label: 'Open Story', command: () => this.levelService.viewPage=29},
+                { label: 'Lets Talk', command: () => this.levelService.viewPage=30},
+                { label: 'Think and Write', command: () => this.levelService.viewPage=31},
+                { label: 'word Help', command: () => this.levelService.viewPage=32}
+            ]
+        },
         // {
         //     label: 'Eng Level 1',
         //     expanded: true,

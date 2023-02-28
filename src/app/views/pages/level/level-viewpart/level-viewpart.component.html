@@ -148,10 +148,48 @@
         <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
     </div>
 </div>
+<!-- <div class="text-center">
+    <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="gotoNextpage()">Next</button>
+</div> -->
+
+
+<!-------------------Lesson 10--------------------------------->
+<div>
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 27">
+        <!---------------------------4.1.introduction---------------------------->
+        <app-introduction [instruction]="introduction_lesson_5"></app-introduction>
+    </div>
+
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 28">
+       
+        <!---------------------------4.4.picture play---------------------------->
+        <app-picture-play [data]="picturePlayData_lesson_10"></app-picture-play>
+    </div>
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 29">
+        <!----------------1.5.Open story----------------------------------------->
+        <app-open-story [data]=""></app-open-story>
+</div>
+
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 30">
+         <!--------------------------4.5.Lets talk----------------------------------------->
+        <app-lets-talk></app-lets-talk>
+    </div>
+
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 31">
+        <!--------------------------4.5.think and write----------------------------------------->
+        <app-think-and-write [data]="thinkAndWrite_lesson_10"></app-think-and-write>
+        <iframe src="https://h5p.org/h5p/embed/1356291" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="mcq image type"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    </div>
+
+    <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 32">
+        <!--------------------------4.6.Word help----------------------------------------->
+        <h4 class="rounded bg-light py-3 px-4">Word Help</h4>
+        <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
+    </div>
+</div>
 <div class="text-center">
     <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="gotoNextpage()">Next</button>
 </div>
-
 
 <!--
 <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 1">
