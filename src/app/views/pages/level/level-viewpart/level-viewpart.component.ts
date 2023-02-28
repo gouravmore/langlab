@@ -177,7 +177,7 @@ export class LevelViewpartComponent implements OnInit {
       "ta_text": "வீடியோவைப் பாருங்கள்.► என்பதைக் கிளிக் செய்து ஆடியோவைக் கேளுங்கள்.உங்கள் சக மாணவருடன் வரிகளை மீண்டும் கூறவும்.",
       "video": "assets/collection/lesson-6/video/instruction-2.mp4"
     },
-    
+
     // "instruction_3": {
     //   "en_text": "Click 'next' to go to the next activity.",
     //   "ta_text": "அடுத்த செயல்பாட்டிற்குச் செல்ல 'அடுத்து' என்பதைக் கிளிக் செய்யவும்."
@@ -204,15 +204,15 @@ export class LevelViewpartComponent implements OnInit {
   lesson_5 =  {
     "title": "Story Time: When Amma Went to School",
     "id": "lesson-11",
-    // "instruction_1": {
-    //   "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
-    //   "ta_text": "",
-    //   "video": "assets/collection/lesson2-3/video/unit2L3.mp4"
-    // },
+    "instruction_1": {
+      "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
+      "ta_text": "",
+      "audio": "assets/collection/lesson-11/video/audio.mp4"
+    },
     "instruction_2": {
       "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",
       "ta_text": "",
-      "video": "assets/collection/lesson2-3/video/unit2L3.mp4"
+      "video": "assets/collection/lesson-11/video/unit2L3.mp4"
     },
     "instruction_3": {
       "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",

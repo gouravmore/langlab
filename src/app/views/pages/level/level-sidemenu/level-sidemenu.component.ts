@@ -17,7 +17,7 @@ export class LevelSidemenuComponent implements OnInit {
 
   ngOnInit(): void {
     //this.Items = [collection];
-    
+
     this.Items = [
         {
             label: 'Lesson 3: Whats going on?',
@@ -77,7 +77,7 @@ export class LevelSidemenuComponent implements OnInit {
             ]
         },
         {
-            label: 'Lesson 3: WHEN AMMA WENT TO SCHOOL',
+            label: 'Lesson 3: When Amma Went to School',
             items: [
                 { label: 'Introduction 1', command: () => this.levelService.viewPage=33},
                 { label: 'Story Time: When Amma Went to School', command: () => this.levelService.viewPage=34},
@@ -91,7 +91,7 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'word Help', command: () => this.levelService.viewPage=41}
             ]
         },
-        
+
         // {
         //     label: 'Eng Level 1',
         //     expanded: true,
@@ -101,7 +101,7 @@ export class LevelSidemenuComponent implements OnInit {
         //             expanded: true,
         //             items: [
         //                 {
-        //                     label: 'Lesson 3', 
+        //                     label: 'Lesson 3',
         //                     expanded: true,
         //                     items: [
         //                         {
@@ -119,7 +119,7 @@ export class LevelSidemenuComponent implements OnInit {
         //                     ]
         //                 },
         //                 {
-        //                     label: 'Lesson 5', 
+        //                     label: 'Lesson 5',
         //                     items: [
         //                         {
         //                             label: 'Seasons and Weather',
@@ -184,9 +184,9 @@ export class LevelSidemenuComponent implements OnInit {
         //     ]
         // },
     ];
-    
+
   }
- 
+
 
 }
 
