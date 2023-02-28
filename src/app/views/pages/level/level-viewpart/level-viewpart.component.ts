@@ -78,6 +78,25 @@ export class LevelViewpartComponent implements OnInit {
     }
   } 
 
+  introduction_lesson_5 = {
+    title: 'Feelings: What\'s in store today?',
+    id: "lesson-5",
+    description: "In this lesson, you will learn how to use English words to express your feelings.",
+    objective: [
+      "You will listen to audios to recognise and understand words expressing feelings about something or someone in a familiar context or in a simple conversation.",
+      "You will use simple words and phrases to express how you feel about something or someone in your immediate environment.",
+      "You will read simple texts that describe feelings",
+      "You will write simple notes expressing feelings."
+    ],
+    instruction_1: {
+      en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
+      ta_text: ""
+    }
+  } 
+
+
+
+
 
 
   lesson_1 =  {
@@ -153,6 +172,7 @@ export class LevelViewpartComponent implements OnInit {
       "ta_text": "மீண்டும் படிக்கவும் கேட்கவும் ► ஐ அழுத்தவும்."
     }
   }
+
     
   wordplayData_2 = {
     title: 'Word Play: Matching Game',
@@ -244,6 +264,30 @@ export class LevelViewpartComponent implements OnInit {
         en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
         ta_text: "జతను పూర్తి చేయడానికి సరియైన వ్యక్తిని డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. తరువాత, సంబంధం పేరుని చెప్పడానికి రికార్డ్ బటన్ పైన క్లిక్ చేయండి. ఉదా. భర్త మరియు భార్య",
         audio: "assets/collection/lesson-8/picture-play/instruction-1.mp3"
+      },
+      src: "https://h5p.org/h5p/embed/1356282"
+    }
+  }
+
+  picturePlayData_lesson_10 = {
+    title: 'Picture Play: Weather Report',
+    id: "lesson-10",
+    instruction_1: {
+      en_text: "Here is the news on the weather.But wait! We have to fill the correct weather pictures in the map.Look at the map of India and listen to the audio.Mark the weather for the various places correctly.",
+      ta_text: "వాతావరణం గురించి సమాచారం ఇక్కడ ఉన్నది.కానీ వేచియుడండి! మీరు మ్యాపులో సరియైన వాతావరణ చిత్రాలను నింపాలి. ఇండియా మ్యాప్ చూడండి మరియు ఆడియోని వినండి.విభిన్న ప్రదేశాలను సరిగా వాతావరణాన్ని గుర్తించండి.",
+      audio: "assets/collection/lesson-10/picture-play/instruction-1.mp3"
+    },
+    instruction_2: {
+        en_text: "Click on ► to listen to the weather report.Drag and drop the images onto the correct parts of the country. Good luck!",
+        ta_text: "వాతావరణ నివేదికను వినడానికి ► పైన క్లిక్ చేయండి.దేశం యొక్క సరియైన భాగాలకు చిత్రాల పైన డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి.శుభం కలుగు గాక!"
+       
+      },
+    
+    iframe: {
+      instruction_1:{
+        en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
+        ta_text: "జతను పూర్తి చేయడానికి సరియైన వ్యక్తిని డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. తరువాత, సంబంధం పేరుని చెప్పడానికి రికార్డ్ బటన్ పైన క్లిక్ చేయండి. ఉదా. భర్త మరియు భార్య",
+        audio: "assets/collection/lesson-10/picture-play/instruction-1.mp3"
       },
       src: "https://h5p.org/h5p/embed/1356282"
     }

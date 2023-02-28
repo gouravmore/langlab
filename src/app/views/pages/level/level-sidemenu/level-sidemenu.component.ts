@@ -65,6 +65,40 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'word Help', command: () => this.levelService.viewPage=26}
             ]
         },
+        {
+            label: 'Lesson 10: Review Time',
+            items: [
+                { label: 'Introduction', command: () => this.levelService.viewPage=27},
+                { label: 'Picture Play', command: () => this.levelService.viewPage=28},
+                { label: 'Open Story', command: () => this.levelService.viewPage=29},
+                { label: 'Lets Talk', command: () => this.levelService.viewPage=30},
+                { label: 'Think and Write', command: () => this.levelService.viewPage=31},
+                { label: 'word Help', command: () => this.levelService.viewPage=32}
+            ]
+        },
+
+        {
+            label: 'Lesson 4: Annual Haircut Day',
+            items: [
+            { label: 'Introduction 1', command: () => this.levelService.viewPage=33},
+            { label: 'Story Time:Annual Haircut Day', command: () => this.levelService.viewPage=34},
+            { label: 'Lets Talk', command: () => this.levelService.viewPage=35},
+            { label: 'Open Story', command: () => this.levelService.viewPage=36},
+            { label: 'Introduction 2', command: () => this.levelService.viewPage=37},
+            { label: 'Story Time:The Red Rain Coat', command: () => this.levelService.viewPage=38},
+            { label: 'Lets Talk', command: () => this.levelService.viewPage=39},
+            { label: 'Think and Write', command: () => this.levelService.viewPage=40},
+            { label: 'word Help', command: () => this.levelService.viewPage=41}
+            ]
+            },
+            
+
+
+
+
+
+
+
         // {
         //     label: 'Eng Level 1',
         //     expanded: true,
