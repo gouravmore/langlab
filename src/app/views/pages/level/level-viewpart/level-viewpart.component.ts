@@ -113,19 +113,62 @@ export class LevelViewpartComponent implements OnInit {
     title: 'School Time! Morning Time! Brushing Time!',
     id: "lesson-3",
     description: "In this lesson, you will attempt a variety of comprehension and grammar activities based on two stories titled When Amma Went to School and Brushing is No Fun .",
-    objective: [
-      "You will be able to understand procedures, the sequence of events and comprehend unpredictable turn of events through audio cues.",
-      "You will be able to list the procedures and recount the steps in a process.",
-      "You will attempt matching activities and read with care to find the correct word match in a sentence.",
-      "You will be able to write the steps in a process in the proper sequence."
-    ],
+    image: "assets/collection/lesson-11/images/image1.png",
     instruction_1: {
+      en_text: "",
+      ta_text: "",
+      audio: "assets/collection/lesson-11/audio/schoolTime.mp3"
+    },
+    instruction_2: {
       en_text: "In this lesson, you will lea  rn to understand and describe locations of things in your immediate surroundings.",
+      ta_text: ""
+    },
+    instruction_3: {
+      en_text: "You can listen again by clicking on the Play button.",
       ta_text: ""
     }
   }
 
+  introduction_lesson_8 = {
+    title: 'Lesson 4: What\'s in store today?',
+    id: "lesson-3",
+    description: 'In this lesson, you will attempt a variety of comprehension and grammar activities based on two stories titled "The Annual Haircut Day" and "The Red Raincoat".',
+    objective: [
+      "You will be able to listen to audio cues to understand cause and effect.",
+      "You will be able to speak about professions and what you like to do.",
+      "You will be able to write simple sentences about different professions and the kinds of work you like to do."
+    ]
+  }
 
+  introduction_lesson_9 = {
+    title: 'Introduction 1',
+    id: "lesson-12",
+    image:"assets/collection/lesson-12/image/image1.png",
+    instruction_1: {
+      en_text: "",
+      ta_text: "",
+      audio: "assets/collection/lesson-12/audio/audio1.mp3"
+    },
+    instruction_3: {
+      en_text: "You can listen again by clicking on the Play button.",
+      ta_text: ""
+    }
+  }
+
+  introduction_lesson_10 = {
+    title: 'Introduction 2',
+    id: "lesson-12",
+    image:"assets/collection/lesson-12/image/image2.png",
+    instruction_1: {
+      en_text: "",
+      ta_text: "",
+      audio: "assets/collection/lesson-12/audio/audio2.mp3"
+    },
+    instruction_3: {
+      en_text: "You can listen to the audio again by clicking on the ► button.",
+      ta_text: ""
+    }
+  }
 
   lesson_1 =  {
     title: 'What\'s going on?',
@@ -207,11 +250,8 @@ export class LevelViewpartComponent implements OnInit {
     "instruction_1": {
       "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
       "ta_text": "",
-      "audio": "assets/collection/lesson-11/video/audio.mp4"
     },
     "instruction_2": {
-      "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",
-      "ta_text": "",
       "video": "assets/collection/lesson-11/video/unit2L3.mp4"
     },
     "instruction_3": {
@@ -230,12 +270,44 @@ export class LevelViewpartComponent implements OnInit {
     "instruction_2": {
       "en_text": "Click on Play button to listen to the story. Read the subtitles to follow the dialogues carefully.",
       "ta_text": "",
-      "video": "assets/collection/lesson-8/video/instruction-2.mp4"
+      "video": "assets/collection/lesson-11/video/video2.mp4"
     },
     // "instruction_3": {
     //   "en_text": "Press  ►  to read and listen again.",
     //   "ta_text": "மீண்டும் படிக்கவும் கேட்கவும் ► ஐ அழுத்தவும்."
     // }
+  }
+
+  lesson_7 =  {
+    "title": "Story Time: Annual Haircut Day",
+    "id": "lesson-12",
+    "instruction_1": {
+      "en_text": "Click on Play to listen to the story. Read the subtitles to follow the dialogues carefully.",
+      "ta_text": "",
+    },
+    "instruction_2": {
+      "video": "assets/collection/lesson-12/video/video1.mp4"
+    },
+    "instruction_3": {
+      "en_text": "Replay the video if you wish to listen to the story again. When you are ready, go to the next task.",
+      "ta_text": ""
+    }
+  }
+
+  lesson_8 =  {
+    "title": "Story Time: The Red Rain Coat",
+    "id": "lesson-13",
+    "instruction_1": {
+      "en_text": "Click on the play button to listen to the story. Read the subtitles to follow the dialogues carefully.",
+      "ta_text": "",
+    },
+    "instruction_2": {
+      "video": "assets/collection/lesson-12/video/video2.mp4"
+    },
+    "instruction_3": {
+      "en_text": "Replay the video if you wish to listen to the story again.When you are ready, go to the next task.",
+      "ta_text": ""
+    }
   }
 
 
@@ -254,6 +326,33 @@ export class LevelViewpartComponent implements OnInit {
     instruction_3: {
       en_text: "Drag and drop the correct word in the blank. Click 'Check Answer' when you finish.",
       ta_text: "சரியான வார்த்தையை வெற்றிடங்களில் நிரப்பவும்.  நீங்கள் முடித்ததும் 'பதிலைச் சரிபார்க்க'  கிளிக் செய்யவும்.",
+    }
+  }
+
+  wordplayData_3 = {
+    title: 'Word Play: Find the Objects!',
+    id: "lesson-6",
+    instruction_1: {
+      en_text: "Look at the images.\n Each picture shows a season.",
+      ta_text: "படங்களைப் பாருங்கள். ஒவ்வொரு படமும் ஒரு பருவத்தைக் காட்டுகிறது.",
+    },
+    instruction_2: {
+      en_text: "Read the sentences.\nMatch the names of the seasons with the sentences.",
+      ta_text: "வாக்கியங்களைப் படியுங்கள். பருவங்களின் பெயர்களை வாக்கியங்களுடன் பொருத்தவும்.",
+      audio: "assets/collection/lesson-5/wordplay/wordplay.mp3"
+    },
+    instruction_3: {
+      en_text: "Drag and drop the correct word in the blank. Click 'Check Answer' when you finish.",
+      ta_text: "சரியான வார்த்தையை வெற்றிடங்களில் நிரப்பவும்.  நீங்கள் முடித்ததும் 'பதிலைச் சரிபார்க்க'  கிளிக் செய்யவும்.",
+    }
+  }
+
+  wordplayData_11 = {
+    title: 'Word Play: Gap Filling',
+    id: "lesson-2",
+    instruction_1: {
+      en_text: "Choose the right word and fill in the gaps.",
+      ta_text: "",
     }
   }
 
@@ -401,25 +500,38 @@ export class LevelViewpartComponent implements OnInit {
   }
 
   openStory_lesson_11 = {
-    title: 'Open Story: Describe the Action',
-    id: "lesson-1",
+    title: 'Open Story: Be An Author',
+    id: "lesson-11",
     instruction_1: {
-      en_text: "We just saw a video of people doing different actions. Can you match the images below with the actions described?",
-      ta_text: "வெவ்வேறு செயல்களைச் செய்யும் நபர்களின் காணொளி பார்த்தோம். விவரிக்கப்பட்டுள்ள செயல்களுடன் கீழே உள்ள படங்களை உங்களால் பொருத்த முடியுமா?",
-      audio: "assets/collection/lesson-1/picture-play/instruction-1.mp3"
+      en_text: "Arrange the pictures, write the captions and create a story !",
+      ta_text: "",
     },
-    instruction_2: {
-      en_text: "Click ► to begin.",
-      ta_text: "தொடங்க ► கிளிக் செய்யவும்.",
-      video: "assets/collection/lesson-1/video/instruction-2.mp4"
-    },
-    instruction_3: {
-      en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
-      ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
-    },
-    iframe: "assets/collection/lesson-10/open-story/EBU02L10.csst"
+    iframe: "assets/collection/lesson-11/open-story/Be_an_author_l3.csst"
 
   }
+
+   openStory_lesson_12 = {
+    title: 'Open Story: Describe the Steps',
+    id: "lesson-12",
+    instruction_1: {
+      en_text: "Describe the steps.",
+      ta_text: "",
+    },
+    iframe: "assets/collection/lesson-11/open-story/Be_an_author_l3.csst"
+
+  }
+
+  openStory_lesson_13 = {
+    title: 'Open Story: Match the Caption',
+    id: "lesson-12",
+    instruction_1: {
+      en_text: "Read the given caption and choose a picture.",
+      ta_text: "",
+    },
+    iframe: "assets/collection/lesson-12/open-story/Match_the_title.csst"
+  }
+
+
 
   thinkAndWrite_lesson_1 = {
     title: 'Think and Write',

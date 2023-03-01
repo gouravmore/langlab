@@ -86,9 +86,10 @@
     </div>
 
     <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 16">
-        <!---------------------------3.3.word play---------------------------->
-        <!-- <app-warm-up [lesson]="lesson_2"></app-warm-up> -->
-    </div>
+      <!----------------2.3.Word play----------------------------------------->
+      <app-wordplay [wordplayData]="wordplayData_3"></app-wordplay>
+      <iframe src="https://h5p.org/h5p/embed/1357994" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Word Play: Matching Game L-5"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+  </div>
 
     <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 17">
         <!---------------------------3.4.picture play---------------------------->
@@ -214,12 +215,12 @@
 </div>
 <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 38">
     <!----------------2.3.Word play----------------------------------------->
-    <app-wordplay [wordplayData]="wordplayData_2"></app-wordplay>
+    <app-wordplay [wordplayData]="wordplayData_11"></app-wordplay>
     <iframe src="https://h5p.org/h5p/embed/1357994" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Word Play: Matching Game L-5"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 </div>
 <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 39">
     <!--------------------------10.3.Open Story----------------------------------------->
-    <app-open-story [data]="openStory_lesson_10"></app-open-story>
+    <app-open-story [data]="openStory_lesson_12"></app-open-story>
 </div>
 
 
@@ -237,7 +238,60 @@
     <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
 </div>
 </div>
+<!----------------------Annual haircut-------------------------------------->
+<div>
+  <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 42">
+      <app-introduction [instruction]="introduction_lesson_8"></app-introduction>
+  </div>
+  <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 43">
+      <app-introduction [instruction]="introduction_lesson_9"></app-introduction>
+  </div>
+  <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 44">
+    <app-warm-up [lesson]="lesson_7"></app-warm-up>
+  </div>
+  <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 45">
+      <app-lets-talk></app-lets-talk>
+  </div>
+  <div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 46">
+    <app-open-story [data]="openStory_lesson_13"></app-open-story>
+  </div>
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 47">
+  <!---------------------------3.2.1.introduction 2---------------------------->
+  <app-introduction [instruction]="introduction_lesson_10"></app-introduction>
+</div>
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 48">
+  <!---------------------------4.2.Story time---------------------------->
+  <app-warm-up [lesson]="lesson_8"></app-warm-up>
+</div>
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 49">
+  <app-lets-talk></app-lets-talk>
+</div>
 
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 50">
+  <!--------------------------10.5. Think and Write---------------------------------------->
+  <app-think-and-write [data]="thinkAndWrite_lesson_3"></app-think-and-write>
+  <iframe src="https://h5p.org/h5p/embed/1356291" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="mcq image type"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+</div>
+
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 51">
+  <!--------------------------10.6.Word help----------------------------------------->
+  <h4 class="rounded bg-light py-3 px-4">word Help</h4>
+  <app-word-help [data]="wordHelp_lesson_2" ></app-word-help>
+</div>
+</div>
+
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 52">
+  <iframe src="https://sballtnpoc.uniteframework.io/proto3/all?source=https://sballtnpoc.uniteframework.io/db/users.json" width="900" height="706" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Short"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+</div>
+
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 53">
+  <iframe src="https://sballtnpoc.uniteframework.io/proto3/all?source=https://sballtnpoc.uniteframework.io/db/users.json" width="900" height="706" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Short"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+</div>
+
+<div class="rounded bg-white border p-3" *ngIf="levelService.viewPage == 54">
+  <iframe src="https://sballtnpoc.uniteframework.io/proto3/all?source=https://sballtnpoc.uniteframework.io/db/users.json" width="900" height="706" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Short"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+</div>
 
 <div class="text-center">
     <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="gotoNextpage()">Next</button>
