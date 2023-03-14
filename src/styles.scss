@@ -672,3 +672,35 @@ li a[aria-expanded="true"] span{
   font-size: 14px !important;
   line-height: 17px !important;
 }
+
+.owl-carousel .owl-nav .owl-prev{
+  background: #662D91 !important;
+  height: 50px !important;
+  width: 50px;
+  border-radius: 50% !important;
+  position: absolute;
+  left: 0%;
+  top: 30%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.owl-carousel .owl-nav .owl-next{
+  background: #662D91 !important;
+  height: 50px !important;
+  width: 50px;
+  border-radius: 50% !important;
+  position: absolute;
+  right: 0%;
+  top: 30%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+}
+@media (max-width: 991px){
+.page-wrapper {
+    margin-top: 0px !important;
+}
+}
