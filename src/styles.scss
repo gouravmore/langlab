@@ -650,8 +650,8 @@ th[sortable].desc:after {
   color: #fff;
   font-weight: 900;
   margin-top: -14px;
-  position: relative;
-  left: 286px;
+  position: absolute;
+  right: 26px;
 }
 .sidepanel .pi-chevron-down:before, .sidepanel .pi-angle-down:before {
   content: "\F282";
@@ -663,8 +663,8 @@ th[sortable].desc:after {
   color: #fff;
   font-weight: 900;
   margin-top: -14px;
-  position: relative;
-  left: 286px;
+  position: absolute;
+  right: 26px;
 }
 li a[aria-expanded="true"] span{
   color: #662D91 !important;
@@ -703,4 +703,10 @@ li a[aria-expanded="true"] span{
 .page-wrapper {
     margin-top: 0px !important;
 }
+}
+.p-panelmenu .p-panelmenu-header.p-highlight a {
+  position: relative !important;
+}
+.sidepanel .p-panelmenu-content .p-menuitem .p-menuitem-link{
+  position: relative !important;
 }
