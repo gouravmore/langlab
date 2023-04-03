@@ -15,7 +15,7 @@ jobs:
             NG_CLI_ANALYTICS: "ci"
           command: npm install
       - run:
-          name: Node install
+          name: ng linting
           command: npm run lint
       - run:
           name: Testing
