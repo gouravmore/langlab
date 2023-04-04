@@ -80,7 +80,7 @@
               "node_modules/pivottable/dist/pivot.css",
               "src/styles.scss",
               "node_modules/font-awesome/css/font-awesome.min.css"
-        
+
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
@@ -194,6 +194,15 @@
 
             ],
             "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
           }
         }
       }
