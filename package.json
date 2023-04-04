@@ -15,6 +15,11 @@
   "dependencies": {
     "@angular-eslint/builder": "^15.2.1",
     "@angular-eslint/schematics": "^1.0.0",
+    "@angular-eslint/eslint-plugin": "13.5.0",
+    "@angular-eslint/eslint-plugin-template": "13.5.0",
+    "@angular-eslint/template-parser": "13.5.0",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
     "@angular/animations": "^14.2.12",
     "@angular/cdk": "^13.3.6",
     "@angular/common": "^14.2.12",
