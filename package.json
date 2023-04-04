@@ -8,6 +8,7 @@
     "build-player": "node copyContentPlayer.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "lint": "ng lint",
     "rtl": "webpack --config webpack-rtl.config.js"
   },
   "private": true,
